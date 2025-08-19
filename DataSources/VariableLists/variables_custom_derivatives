@@ -1,1 +1,14 @@
 
+Name;Description;Comment
+zAssessmentReason;Reason for assessment in abbreviated coding;1 = complete assessment at start of service, 2 = other complete assessment, 3 = partial assessment
+zMaritalStatus;Marital status in abbreviated coding;1 = not married or without partner, 2 = married or with partner
+zLivingArrangement;Living arrangement in abbreviated coding;1 = lives alone, 2 = lives with a partner, 3 = lives with a relative, 4 = lives with someone else
+zMedPsych;Psychotropic medication in use;0 = false, 1 = true
+zMedStat;Statin in use;0 = false, 1 = true
+zMedHfmed;Heart failure medication in use;0 = false, 1 = true
+zMedHypogl;Hypoglycemic medication in use;0 = false, 1 = true
+zMedAnticoag;Anticoagulant in use;0 = false, 1 = true
+zMedAnticol;Anticholinergic medication in use;0 = false, 1 = true
+zMedPain;Pain medication in use;0 = false, 1 = true
+zMedxxx;Medication group in use (template);0 = false, 1 = true
+zDiagxxx;Diseases or disease groups not in RAI variables (template);0 = no diagnosis, 1 = diagnosis exists
