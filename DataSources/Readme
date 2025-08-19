@@ -1,0 +1,40 @@
+# Description of data sources
+
+This folder contains a description of national data sets that together from the source data for the I-CARE4OLD project. The data is obtained from 8 countries:
+
+* Belgium
+* Canada
+* Finland
+* Hong Kong
+* Italy
+* The Netherlands
+* New Zealand
+* USA
+
+Details of each national data source are given in the subfolder `NationalDescriptions`. As per rule, research data was not transferred between countries in the project, except for New Zealand and Hong Kong data sets, which are managed through the interRAI network.
+
+## 1. Contents and structure of the source data
+
+Structurally, the data are divided into _RAI variables_, _events_, and _derivatives_ (see Figure 1 below). _RAI variables_ refer to quantitative variables obtained directly from the interRAI assessment instruments used in home care (HC) and long-term care (LTC, sometimes referred to as nursing homes, NH). _Events_ refer to health- or care-related incidents occurring between interRAI assessments, such as hospital or emergency department visits, death, or various treatments. _Derivatives_ are variables derived from RAI variables and events to aid in modelling and analyses. Derivatives consist of _RAI scales_, which are clinically relevant indicators calculated from the RAI variables, such as CPS (Cognitive Performance Scale) or DRS (Depression Rating Scale), _event derivatives_, such as the day of death or the number of hospital visits within 365 days of an interRAI assessment, and _custom derivatives_, that offer a simplified or unified alternative to certain RAI variables. Lists of variables of different types are given as CSV tables in the subfolder `VariableLists`.
+
+There are 308 RAI variables divided into 19 sections, as well as 25 RAI scales (some variables and scales are only applicable to either HC or LTC). The naming of variables follows the interRAI standard names (so-called "i-codes"). The value sets are not made publicly available because, but the follow the standard interRAI definitions (versions MDS 2.0 and Suite 9.1). For events, there are 8 pre-defined types, but developers may add new event types as needed. Event and custom derivatives may also be added.
+
+![Figure depicting the overall structure of the data. Full description in the text.](dataStructure.png)
+ 
+<sub>_Figure 1._ The overall structure of I-CARE4OLD data. Rectangular boxes represent the logical hierarchy of the variable types. The sources for RAI variables are interRAI assessment databases, and the sources for events are other databases such as death or hospital care registries. Some data are available both in RAI variables and as external events. Derivatives are based on RAI variables and events. Available events data vary from country to country.</sub>
+
+## 2. RAI variables
+
+RAI variables come from interRAI assessments carried out with interRAI assessment instruments. interRAI assessments are performed on older persons receiving care, and they are used to evaluate clients' clinical and functional status and service needs, as well as quality of care. Assessments are done regularly, or when the client's condition changes, in collaboration with the caring personnel and other clinicians, the client, and their proxies.  With interRAI instruments, clients' service needs can be determined in a uniform and versatile manner and services can be planned individually and allocated as needed to those who need them. In addition to the question variables, interRAI instruments also define _RAI scales_ which are derived measurement scales used in the planning and monitoring of the client’s treatment.
+
+interRAI instruments are developed by the interRAI network – a multinational group of clinicians and researchers (<https://interrai.org>). interRAI fellows began work on Version 1 of the RAI instrument in 1993. A major revision and update of the entire system was released as "Version 2.0" in 1999. This version is referred as _Minimum Data Set (MDS) 2.0_ and it is still in use in several countries. In 2001, interRAI began a restructuring initiative to ensure that all instruments contained common items and definitions. This major revision of the RAI instrument is referred as the _interRAI assessment_ (also known as "interRAI Suite"). Both MDS 2.0 and interRAI assessments include instruments designed specifically for home care (MDS HC & interRAI HC) as well as for long term care (MDS LTC & interRAI LTCF). Also, other interRAI instruments exist such as interRAI PAC for post-acute care and interRAI AC for acute care. Some assessment questions, such as those related to the service system, may differ in the national versions of the instruments. It has been also possible to add questions to the national versions about topics that are considered nationally important. The interRAI data of I-CARE4OLD consists of the MDS HC, interRAI HC, MDS LTC and interRAI LTCF assessments.
+
+## 3. Events and derivatives
+
+In addition to interRAI assessment data, many countries have access to registry data on care-related events such as hospital visits, death events, and change of care (transfer or check-out). Those that pertain to the study population determined by the interRAI assessments, are recorded in the I-CARE4OLD data as _events_. Events are typically stored as lists, and each event contains a date and a link to the interRAI assessed person. The availability of different event types and their linking to interRAI assessed persons varies between countries.
+
+To assist in modelling and algorithm building, certain helper variables, called _derivatives_, are constructed. The most important type of derivatives are RAI scales, which are clinically relevant measurement scales and indicators included in interRAI assessment instruments. We use the interRAI standard notation for RAI scales. Another category of derivatives are event derivatives. These encode frequently used event-related data such as whether the person has died within a year from their interRAI assessment, or the number of hospital visits within that year. A third category are custom derivatives, which replace certain RAI variables by a unified version. For example, "marital status" is a multi-valued variable, whose definition varies from country to country. A custom derivative replaces this with the dichotomic values "not married or without partner" and "married or with partner".
+
+## 4. Harmonisation
+
+For usability between countries, the data sets were harmonised to conform to the same structure, names, and definitions. For RAI variables and scales, very little harmonisation was needed because the interRAI standards guarantee that different countries are operating with the same variables. Crosswalk tables were developed to translate the variables between different RAI instrument versions. These are not made publicly available. For event data, common event derivatives were be used in all data sets.
