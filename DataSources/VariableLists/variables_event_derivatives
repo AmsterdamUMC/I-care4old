@@ -1,0 +1,14 @@
+Name;Description;Comment
+zDeath;Death occurred during follow-up year;0 = false, 1 = true
+zHospNo;Number of hospital visits during follow-up year;Counted for 365 days from baseline assessment
+zHospNoUnplanned;Number of unplanned hospital visits during follow-up year;Visits starting from ED or routine checkup, subset of hospital visits, counted for 365 days since baseline assessment
+zHospDays;Days spent in hospital during follow-up year;Max 365 days
+zHospOffset;Days before first hospital visit;Max 365 days
+zHospOffsetUnplanned;Days before first unplanned hospital visit;Max 365 days
+zLTC;Transferred to LTC during follow-up year;0 = false, 1 = true
+zDischarge;Discharged from care during follow-up year;0 = false, 1 = true
+zCovid;Corona infection during follow-up year;0 = false, 1 = true
+zMedxxx;Started medication during follow-up year (template);0 = false, 1 = true
+zMedEndxxx;Quit medication during follow-up year (template);0 = false, 1 = true
+zNPIxxx;Started non-pharmacological intervention during follow-up year (template);0 = false, 1 = true
+zNPIEndxxx;Quit non-pharmacological intervention during follow-up year (template);0 = false, 1 = true
