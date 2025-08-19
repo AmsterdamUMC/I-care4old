@@ -1,0 +1,50 @@
+# Description of I-CARE4OLD data source: Finland
+
+## Data controller
+
+Finnish Institute for Health and Welfare (THL)
+
+## Data contents
+
+* interRAI data (sample sizes for 2014–2018)
+    - Home care (HC): 49,270 persons / 111,736 assessments
+    - Long-term care (LTC): 37,330 persons / 91,094 assessments
+    - Instrument versions: MDS 2.0 and interRAI Suite 9.1 (only HC)
+    - Medication information: ATC lists
+* Hospital visits
+* Deaths
+* Moving to LTC service
+* COVID infections
+
+The data permission for I-CARE4OLD covers the years 2014–2020, but data for 2021–2022 is available for THL researchers for COVID-related analyses. The data are collected mostly electronically using the MDS 2.0 instrument (for HC and LTC), and interRAI Suite 9.1.2 (for some HC units starting in 2019, and some LTC units starting in 2021). The collection is done in 6-month periods. In 2021, the HC data coverage has increased to approximately 25% of the target population of over 65 years old receiving care. The LTC data coverage has increased to 50% in 2021. Both coverages vary regionally. Finland is able to link hospital visits, deaths, change of care events, and COVID infections to interRAI data. These events come from the Digital and Population Data Services Agency (DVV, death dates, formerly Population Register Centre), as well as THL registries for infectious diseases (TTR, COVID events) and social and health care treatment notifications (HILMO, all other events).
+
+## Data collection
+
+### interRAI data
+
+InterRAI assessment information is generated as part of the health and social service providers' own statutory activities by trained clinical professionals who are working with interRAI assessed clients at home care and long-term care. interRAI data are the service provider's responsibility for record keeping. However, copies of the interRAI assessments are delivered twice a year to the Finnish Institute for Health and Welfare (THL) either by the service provider themselves or by their authorized application provider. After the data have been transferred to THL, THL is the owner and register keeper (data controller) of the data, in accordance with the administrative decision by THL.
+
+### Non-interRAI data
+
+THL maintains the hospital discharge register (Hilmo) and has legal right to access information from Digital and Population Data Services Agency (DPDS). Hospital discharge register contains information on medication, diagnosis, and hospital discharge including deaths. The data is collected by health professionals in hospitals (nurses and doctors). DPDS collects and maintains information on family relations, place of residence, etc., obtained mainly from other Finnish authorities. Citizen report some of the information themselves.
+
+## Linkage and pseudonymisation
+
+At the data transfer of interRAI data, data handlers at THL replace the social security number with a pseudonym that is unique to each client across the country and across service settings. The identification key is stored separately from the interRAI data in secure databases. Both databases can only be accessed by THL officials who have obtained a permission. The identification keys need an additional permission.
+
+For linkage to the hospital discharge register, a key to connect with the interRAI pseudonyms is created when interRAI data is imported to THL and stored with the interRAI data. This key is accessible by THL officials who have access to interRAI data.
+
+When data are requested from DPDS, THL officials who have access to personal identification information send a list of social security numbers together with a pseudonymisation algorithm and receive a pseudonymised data set. THL's researchers can make internal data requests to obtain linked data sets.
+
+## Data security
+
+The Finnish Institute for Health and Welfare (THL) is responsible for storing the data. There is no transfer because only THL's personnel or visiting researchers, for whom the Finnish security police has made a security assessment beforehand, can access the data either when logged in to THL's secured environment or remotely via secured virtual private network (VPN) connection with a secure key. To prevent data leaks, several measures are conducted such as security policy guidelines, organizational measures such as confidential agreements and training of personnel, network security, provision of loggings and documentation, as well as the supervision by a data protection officer. Additionally, computers accessing the VPN must be owned and under security policies of THL. THL stores datasets for long-term preservation in its own storage space. The data are backed up regularly.
+
+## Legal basis for use
+
+Finnish data processing follows EU's GDPR (2016/679), the Act on the Secondary Use of Health and Social Data (01.05.2019/552), and the Finnish Act on Data Protection (5.12.2018/1050), which specifies and supplements the EU's GDPR and its national application. Base on the Act on the Institute of Health and Welfare (31.10.2008/668), THL is a national statutory statistical authority in Finland being responsible for the maintenance and development of statistical and register resources as well as conducting research.
+
+## Data re-use
+
+Researchers outside THL transact through the Finnish Social and Health Data Permit Authority (Findata, https://findata.fi/en/), which is the data authorization authority operating under THL.
+It is also advisable to contact THL interRAI researchers (rai@thl.fi) for any inquiries about I-CARE4OLD data.
