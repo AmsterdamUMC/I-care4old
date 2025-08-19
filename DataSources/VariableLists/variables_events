@@ -1,0 +1,9 @@
+Name;Description;Content
+Hospital visit;Visited hospital;"Date (of entry); Discharge date; Unplanned (started from ER, true/false)"
+Death;Death;Date
+Transfer to LTC;Transferred from HC to LTC;Date
+Discharge from care;Left care for other reason than death;Date
+Medication;Started taking medication;"Date; Medicine"
+Medication end;Stopped taking medication;"Date; Medicine"
+Non-pharmacological intervention;Started a non-pharmacological intervention;"Date; Type of treatment"
+Non-pharmacological intervention end;Stopped a non-pharmacological intervention;"Date; Type of treatment"
