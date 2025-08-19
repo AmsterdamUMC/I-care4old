@@ -1,0 +1,309 @@
+Section;Section description;Variable;Variable description;Relevance
+iA;Identification Information;iA2;Gender;
+iA;Identification Information;iA4;Marital Status;
+iA;Identification Information;iA8;Reason for Assessment;
+iA;Identification Information;iA9;Reference Date;
+iA;Identification Information;iA12a;Living Arrangement;
+iA;Identification Information;iA12b;Lives w/someone new;HC only
+iA;Identification Information;iA12c;Better Living Elsewhere;HC only
+iA;Identification Information;iA13;Time since last hospital stay;
+iB;Intake and Initial History;iB5a;History-LTCF;
+iB;Intake and Initial History;iB5b;History-Board and care home;
+iB;Intake and Initial History;iB5c;History-Psych hosp/unit ;
+iB;Intake and Initial History;iB5d;History-Intellectual disability;
+iB;Intake and Initial History;iB5e;History-Mental health residence;
+iB;Intake and Initial History;iB6;Level of Control;
+iB;Intake and Initial History;iB7;History of Mental Illness;
+iC;Cognition;iC1;Daily Decision Making;
+iC;Cognition;iC2a;Short-term Memory;
+iC;Cognition;iC2b;Procedural Memory;
+iC;Cognition;iC2c;Situational Memory;
+iC;Cognition;iC2d;Long-term Memory;LTC only
+iC;Cognition;iC3a;Easily Distracted;
+iC;Cognition;iC3b;Disorganized Speech;
+iC;Cognition;iC3c;Mental function varies over day;
+iC;Cognition;iC4;Acute change in Mental Status;
+iC;Cognition;iC5;Change in Decision Making;
+iD;Communication and Vision;iD1;Making self understood;
+iD;Communication and Vision;iD2;Ability to understand others;
+iD;Communication and Vision;iD3a;Hearing;
+iD;Communication and Vision;iD3b;Hearing aid used;
+iD;Communication and Vision;iD4a;Vision: Ability to see in adequate light;
+iD;Communication and Vision;iD4b;Visual appliance used;
+iE;Mood and Behaviour;iE1a;Negative statements;
+iE;Mood and Behaviour;iE1b;Anger;
+iE;Mood and Behaviour;iE1c;Unrealistic fears;
+iE;Mood and Behaviour;iE1d;Repetitive health complaints;
+iE;Mood and Behaviour;iE1e;Repetitive anxious complaints (non-health-related);
+iE;Mood and Behaviour;iE1f;Sad, pained, or worried facial expressions;
+iE;Mood and Behaviour;iE1g;Crying;
+iE;Mood and Behaviour;iE1h;Recurrent statements;
+iE;Mood and Behaviour;iE1i;Withdrawal from activities of interest;
+iE;Mood and Behaviour;iE1j;Reduced social interactions;
+iE;Mood and Behaviour;iE1k;Lack of pleasure (anhedonia);
+iE;Mood and Behaviour;iE2a;Self report: Little interest or pleasure;
+iE;Mood and Behaviour;iE2b;Self report: Anxious, restless, or uneasy ;
+iE;Mood and Behaviour;iE2c;Self report: Sad, depressed, or hopeless;
+iE;Mood and Behaviour;iE3a;Wandering;
+iE;Mood and Behaviour;iE3b;Verbal abuse;
+iE;Mood and Behaviour;iE3c;Physical abuse;
+iE;Mood and Behaviour;iE3d;Socially inappropriate or disruptive behavior or public disrobing;
+iE;Mood and Behaviour;iE3e;Resists care;
+iE;Mood and Behaviour;iE3f;Inappropriate public sexual behavior;
+iF;Psychosocial Well-Being;iF1a;Social activities;
+iF;Psychosocial Well-Being;iF1b;Visit w/family member;
+iF;Psychosocial Well-Being;iF1c;Other interaction w/ family member (e.g., telephone, email);
+iF;Psychosocial Well-Being;iF1d;Lonely;
+iF;Psychosocial Well-Being;iF1e;Openly expresses conflict w/family;
+iF;Psychosocial Well-Being;iF1f;Fearful of family member;
+iF;Psychosocial Well-Being;iF1g;Neglected or abused;
+iF;Psychosocial Well-Being;iF2;Change in social activities;
+iF;Psychosocial Well-Being;iF3;Time alone;
+iF;Psychosocial Well-Being;iF4;Major life stressors;
+iF;Psychosocial Well-Being;iF5a;At ease interacting w/others;
+iF;Psychosocial Well-Being;iF5b;At ease doing planned activities;LTC only
+iF;Psychosocial Well-Being;iF5c;Accepts invitations;LTC only
+iF;Psychosocial Well-Being;iF5d;Pursues involvement in life of facility;LTC only
+iF;Psychosocial Well-Being;iF5e;Initiates interactions;LTC only
+iF;Psychosocial Well-Being;iF5f;Reacts positively to interactions;
+iF;Psychosocial Well-Being;iF5g;Adjusts easily change in routine;LTC only
+iF;Psychosocial Well-Being;iF7a;Conflict w/other care recipients;LTC only
+iF;Psychosocial Well-Being;iF7b;Conflict w/staff;LTC only
+iF;Psychosocial Well-Being;iF7c;Staff frustration;
+iF;Psychosocial Well-Being;iF7d;Family overwhelmed;
+iF;Psychosocial Well-Being;iF8a;Strong relationship w/family;
+iF;Psychosocial Well-Being;iF8b;Consistent positive outlook;
+iF;Psychosocial Well-Being;iF8c;Finds meaning (0,1);
+iG;Functional Status ;iG1aa;Meal preparation - Performance;
+iG;Functional Status ;iG1ab;Meal preparation - Capacity;
+iG;Functional Status ;iG1ba;Housework - Performance;
+iG;Functional Status ;iG1bb;Housework - Capacity;
+iG;Functional Status ;iG1ca;Finance - Performance;
+iG;Functional Status ;iG1cb;Finance - Capacity;
+iG;Functional Status ;iG1da;Managing medications - Performance;
+iG;Functional Status ;iG1db;Managing medications - Capacity;
+iG;Functional Status ;iG1ea;Phone use - Performance;
+iG;Functional Status ;iG1eb;Phone use - Capacity;
+iG;Functional Status ;iG1fa;Stairs - Performance;
+iG;Functional Status ;iG1fb;Stairs - Capacity;
+iG;Functional Status ;iG1ga;Shopping - Performance;
+iG;Functional Status ;iG1gb;Shopping - Capacity;
+iG;Functional Status ;iG1ha;Transportation - Performance;
+iG;Functional Status ;iG1hb;Transportation - Capacity;
+iG;Functional Status ;iG2a;Bathing - performance;
+iG;Functional Status ;iG2b;Personal hygiene - performance;
+iG;Functional Status ;iG2c;Dressing upper body - performance;
+iG;Functional Status ;iG2d;Dressing lower body - performance;
+iG;Functional Status ;iG2e;Walking on same floor indoors - performance;
+iG;Functional Status ;iG2f;Locomotion on same floor (unit) - performance ;
+iG;Functional Status ;iG2g;Transfer toilet - performance;
+iG;Functional Status ;iG2h;Toilet use - performance;
+iG;Functional Status ;iG2i;Bed mobility - performance;
+iG;Functional Status ;iG2j;Eating - performance;
+iG;Functional Status ;iG3;Primary mode of locomotion;
+iG;Functional Status ;iG4;Distance walked;
+iG;Functional Status ;iG5;Distance wheeled;
+iG;Functional Status ;iG6a;Hours exercise;
+iG;Functional Status ;iG6b;Days went out;
+iG;Functional Status ;iG7a;Person believes can improve;
+iG;Functional Status ;iG7b;Caregiver believes can improve;
+iG;Functional Status ;iG8a2;Change in ADL status (0-2,8);
+iG;Functional Status ;iG9a;Drove car ;
+iG;Functional Status ;iG9b;Suggestion to limit driving;
+iG;Functional Status ;iG12;Timed walk;
+iH;Continence;iH1;Bladder continence;
+iH;Continence;iH2;Urinary collection device;
+iH;Continence;iH3;Bowel continence;
+iH;Continence;iH4;Pads worn;
+iH;Continence;iH5;Ostomy;
+iI;Diseases and Diagnoses;iI1a;Hip fracture;
+iI;Diseases and Diagnoses;iI1b;Other fracture;
+iI;Diseases and Diagnoses;iI1c;Alzheimer's disease;
+iI;Diseases and Diagnoses;iI1d;Other dementia;
+iI;Diseases and Diagnoses;iI1e;Hemiplegia;
+iI;Diseases and Diagnoses;iI1f;Multiple sclerosis (MS);
+iI;Diseases and Diagnoses;iI1g;Paraplegia;
+iI;Diseases and Diagnoses;iI1h;Parkinson's disease;
+iI;Diseases and Diagnoses;iI1i;Quadriplegia;
+iI;Diseases and Diagnoses;iI1j;Stroke/CVA;
+iI;Diseases and Diagnoses;iI1k;Coronary heart disease;
+iI;Diseases and Diagnoses;iI1l;Congestive heart failure (CHF);
+iI;Diseases and Diagnoses;iI1m;Chronic obstructive pulmonary disease (COPD);
+iI;Diseases and Diagnoses;iI1n;Anxiety;
+iI;Diseases and Diagnoses;iI1o;Depression;
+iI;Diseases and Diagnoses;iI1p;Schizophrenia;
+iI;Diseases and Diagnoses;iI1q;Pneumonia during last 30 days;
+iI;Diseases and Diagnoses;iI1r;Urinary tract infection (UTI) during last 30 days;
+iI;Diseases and Diagnoses;iI1s;Cancer;
+iI;Diseases and Diagnoses;iI1t;Diabetes Mellitus;
+iI;Diseases and Diagnoses;iI1w;Bipolar disorder;
+iJ;Health Conditions;iJ1;Falls (or use new Falls items iJ1g, iJ1h, iJ1i);
+iJ;Health Conditions;iJ2a;Difficulty standing;
+iJ;Health Conditions;iJ2b;Difficulty turning around;
+iJ;Health Conditions;iJ2c;Dizziness;
+iJ;Health Conditions;iJ2d;Unsteady gait;
+iJ;Health Conditions;iJ2e;Chest pain/discomfort;
+iJ;Health Conditions;iJ2f;Difficulty clearing airway secretions;
+iJ;Health Conditions;iJ2g;Abnormal thought process ;
+iJ;Health Conditions;iJ2h;Delusions;
+iJ;Health Conditions;iJ2i;Hallucinations ;
+iJ;Health Conditions;iJ2j;Aphasia;
+iJ;Health Conditions;iJ2k;Constipation;
+iJ;Health Conditions;iJ2l;Diarrhea;
+iJ;Health Conditions;iJ2m;Acid reflux;
+iJ;Health Conditions;iJ2n;Vomiting;
+iJ;Health Conditions;iJ2o;Difficulty falling asleep;
+iJ;Health Conditions;iJ2p;Too much sleep;
+iJ;Health Conditions;iJ2q;Fever;
+iJ;Health Conditions;iJ2r;GI/GU bleeding;
+iJ;Health Conditions;iJ2s;Peripheral edema;
+iJ;Health Conditions;iJ2t;Aspiration;
+iJ;Health Conditions;iJ2mm;Poor hygiene ;
+iJ;Health Conditions;iJ3;Dyspnea;
+iJ;Health Conditions;iJ4;Fatigue;
+iJ;Health Conditions;iJ5a;Pain frequency;
+iJ;Health Conditions;iJ5b;Pain intensity;
+iJ;Health Conditions;iJ5c;Pain consistency;
+iJ;Health Conditions;iJ5d;Breakthrough pain;
+iJ;Health Conditions;iJ5e;Pain control;
+iJ;Health Conditions;iJ6a;Unstable conditions;
+iJ;Health Conditions;iJ6b;Flare-up;
+iJ;Health Conditions;iJ6c;End-stage disease;
+iJ;Health Conditions;iJ7;Self-rated health;
+iJ;Health Conditions;iJ8a;Smokes tobacco;
+iJ;Health Conditions;iJ8b;Alcohol;
+iK;Oral and Nutritional Status;iK1ab;Height - cm;
+iK;Oral and Nutritional Status;iK1bb;Weight - kilograms;
+iK;Oral and Nutritional Status;iK2a;Weight loss;
+iK;Oral and Nutritional Status;iK2b;Fluid intake;
+iK;Oral and Nutritional Status;iK2c;Dehydrated;
+iK;Oral and Nutritional Status;iK2h;Fluid output exceeds input;
+iK;Oral and Nutritional Status;iK3;Mode of nutritional intake;
+iK;Oral and Nutritional Status;iK4a;Dentures ;
+iK;Oral and Nutritional Status;iK4b;Broken, decayed, fragmented, or loose natural teeth;
+iK;Oral and Nutritional Status;iK4c;Difficulty chewing;
+iK;Oral and Nutritional Status;iK4d;Dry mouth;
+iK;Oral and Nutritional Status;iK4e;Mouth pain;LTC only
+iK;Oral and Nutritional Status;iK4f;Gum inflammation - Discolouration, swelling, patches, or bleeding of gum or mouth tissue;LTC only
+iK;Oral and Nutritional Status;iK5;Parenteral intake;LTC only
+iL;Skin Condition;iL1;Most severe pressure ulcer;
+iL;Skin Condition;iL2;Prior pressure ulcer;
+iL;Skin Condition;iL3;Other skin ulcer;
+iL;Skin Condition;iL4;Major skin problems;
+iL;Skin Condition;iL5;Skin tears or cuts (other than surgery);
+iL;Skin Condition;iL6;Other skin conditions or changes in skin condition;
+iL;Skin Condition;iL7;Foot problems;
+iN;Treatments and Procedures;iN1a;Influenza vaccine in last year ;
+iN;Treatments and Procedures;iN1b;Pneumovax vaccine - Pneumococcal vaccine in last 5 years or after age 65;
+iN;Treatments and Procedures;iN1c;Mammogram or breast exam in last 2 years;
+iN;Treatments and Procedures;iN1d;Blood pressure;
+iN;Treatments and Procedures;iN1e;Dental exam in last year;
+iN;Treatments and Procedures;iN1f;Hearing exam in last 2 years;
+iN;Treatments and Procedures;iN1g;Eye exam in last year ;
+iN;Treatments and Procedures;iN1h;Colonoscopy in last 5 years;
+iN;Treatments and Procedures;iN2a;Chemotherapy;
+iN;Treatments and Procedures;iN2b;Dialysis;
+iN;Treatments and Procedures;iN2c;Infection control segregation;
+iN;Treatments and Procedures;iN2d;IV Medication;
+iN;Treatments and Procedures;iN2e;Oxygen therapy;
+iN;Treatments and Procedures;iN2f;Radiation;
+iN;Treatments and Procedures;iN2g;Suctioning;
+iN;Treatments and Procedures;iN2h;Tracheostomy care;
+iN;Treatments and Procedures;iN2i;Transfusion;
+iN;Treatments and Procedures;iN2j;Ventilator;
+iN;Treatments and Procedures;iN2k;Wound care;
+iN;Treatments and Procedures;iN2l;Scheduled toileting program;
+iN;Treatments and Procedures;iN2m;Palliative care;
+iN;Treatments and Procedures;iN2n;Turning program;
+iN;Treatments and Procedures;iN3aa;Home health aide - days;HC only
+iN;Treatments and Procedures;iN3ab;Home health aide - minutes;HC only
+iN;Treatments and Procedures;iN3ba;Home nurse - days;HC only
+iN;Treatments and Procedures;iN3bb;Home nurse - minutes;HC only
+iN;Treatments and Procedures;iN3ca;Homemaking services - days;HC only
+iN;Treatments and Procedures;iN3cb;Homemaking services - minutes;HC only
+iN;Treatments and Procedures;iN3da;Meals - days;HC only
+iN;Treatments and Procedures;iN3ea;Physical therapy - days;
+iN;Treatments and Procedures;iN3eb;Physical therapy - minutes;
+iN;Treatments and Procedures;iN3ec;Physical therapy - scheduled;
+iN;Treatments and Procedures;iN3fa;Occupational therapy - days;
+iN;Treatments and Procedures;iN3fb;Occupational therapy - minutes;
+iN;Treatments and Procedures;iN3fc;Occupational therapy - scheduled;
+iN;Treatments and Procedures;iN3ga;Speech therapy (Speech-language pathology or audiology services) - days;
+iN;Treatments and Procedures;iN3gb;Speech therapy (Speech-language pathology or audiology services) - minutes;
+iN;Treatments and Procedures;iN3gc;Speech therapy - scheduled;
+iN;Treatments and Procedures;iN3ha;Psychological therapies (Psycho-social therapy) - days;
+iN;Treatments and Procedures;iN3hb;Psychological therapies (Psycho-social therapy) - minutes;
+iN;Treatments and Procedures;iN3hc;Psychological therapies - scheduled;
+iN;Treatments and Procedures;iN3ia;Respiratory therapy - days;
+iN;Treatments and Procedures;iN3ib;Respiratory therapy - minutes;
+iN;Treatments and Procedures;iN3ic;Respiratory therapy - scheduled;
+iN;Treatments and Procedures;iN3ja;Functional rehabilitation or walking program by licensed nurse/health professional - days;
+iN;Treatments and Procedures;iN3jb;Functional rehabilitation or walking program by licensed nurse/health professional - minutes;
+iN;Treatments and Procedures;iN3jc;Functional rehabilitation or walking program by licensed nurse/health professional - scheduled;
+iN;Treatments and Procedures;iN4;Physical restraints;
+iN;Treatments and Procedures;iN5a;Overnight hospital stay;
+iN;Treatments and Procedures;iN5b;Emergency room/department visit;
+iN;Treatments and Procedures;iN5c;Physician visit - 90 days;
+iN;Treatments and Procedures;iN6a;Full bed rails;
+iN;Treatments and Procedures;iN6b;Trunk restraint;
+iN;Treatments and Procedures;iN6c;Chair prevents rising;
+iN;Treatments and Procedures;iN7;Number days physician visits;
+iN;Treatments and Procedures;iN8;Number days physician orders;LTC only
+iO;Responsibility and Directives;iO1a;Legal guardian;
+iO;Responsibility and Directives;iO1b;Other legal oversight;
+iO;Responsibility and Directives;iO1e;Family member;
+iO;Responsibility and Directives;iO2a;Do not resuscitate;
+iO;Responsibility and Directives;iO2b;Do not intubate;
+iO;Responsibility and Directives;iO2c;Do not hospitalize;
+iO;Responsibility and Directives;iO2d;No tube feeding;
+iO;Responsibility and Directives;iO2e;Medication restrictions;
+iP;Social Supports;iP1a1;Informal help-relationship - 1;HC only
+iP;Social Supports;iP1a2;Informal help-relationship - 2;HC only
+iP;Social Supports;iP1b1;Lives w/person - 1;HC only
+iP;Social Supports;iP1b2;Lives w/person - 2;HC only
+iP;Social Supports;iP1c1;IADL care - 1;HC only
+iP;Social Supports;iP1c2;IADL care - 2;HC only
+iP;Social Supports;iP1d1;ADL care - 1;HC only
+iP;Social Supports;iP1d2;ADL care - 2;HC only
+iP;Social Supports;iP2a;Unable to continue informal care ;HC only
+iP;Social Supports;iP2b;Informal helper stress ;HC only
+iP;Social Supports;iP3;Hours of informal care and active monitoring during last 3 days;HC only
+iQ;Environmental Assessment;iQ1a;Home disrepair;HC only
+iQ;Environmental Assessment;iQ1b;Squalid condition;HC only
+iQ;Environmental Assessment;iQ1c;Inadequate heating or cooling;HC only
+iQ;Environmental Assessment;iQ1d;Lack of personal safety;HC only
+iQ;Environmental Assessment;iQ1e;Limited access to home or rooms in home;HC only
+iQ;Environmental Assessment;iQ2;Handicapped re-engineered apartment;HC only
+iQ;Environmental Assessment;iQ3a;Emergency assistance available;HC only
+iQ;Environmental Assessment;iQ3b;Access to grocery store;HC only
+iQ;Environmental Assessment;iQ3c;Home delivery of groceries available;HC only
+iQ;Environmental Assessment;iQ4;Trade-offs;HC only
+iR;Discharge Potential;iR1;Care goals met;HC only
+iR;Discharge Potential;iR2;Self-sufficiency change;
+iR;Discharge Potential;iR3;Independent ADL areas;
+iR;Discharge Potential;iR4;Independent IADL areas;
+iR;Discharge Potential;iR5;Onset of precipitating event;
+iR;Discharge Potential;iR6a;Preference to return to community;LTC only
+iR;Discharge Potential;iR6b;Support person positive abt. discharge;LTC only
+iR;Discharge Potential;iR6c;Housing available in community;LTC only
+iR;Discharge Potential;iR7;Expected length of stay;LTC only
+iS;Activities and Interests ;iS1b;Time involved in activities (LTCF coding);LTC only
+iS;Activities and Interests ;iS2a;Cards/games with others e.g., mahjong, bridge, chess, multipayer video games ;LTC only
+iS;Activities and Interests ;iS2b;Using computer, smartphone, tablet, or other similar devices ;LTC only
+iS;Activities and Interests ;iS2c;Conversing, talking on the phone or another electronic device;LTC only
+iS;Activities and Interests ;iS2d;Crafts or arts;LTC only
+iS;Activities and Interests ;iS2e;Dancing;LTC only
+iS;Activities and Interests ;iS2f;Exercising or playing sport;LTC only
+iS;Activities and Interests ;iS2g;Gardening or tending plants;LTC only
+iS;Activities and Interests ;iS2h;Helping others/volunteering;LTC only
+iS;Activities and Interests ;iS2i;Singing or playing musical instruments;LTC only
+iS;Activities and Interests ;iS2j;Pets;LTC only
+iS;Activities and Interests ;iS2k;Reading, writing;LTC only
+iS;Activities and Interests ;iS2l;Spiritual activities;LTC only
+iS;Activities and Interests ;iS2m;Taking trips or going shopping;LTC only
+iS;Activities and Interests ;iS2n;Going outdoors;LTC only
+iS;Activities and Interests ;iS2o;Watching TV, listening to radio/music;LTC only
+iS;Activities and Interests ;iS2r;Reminiscing with others;LTC only
+iS;Activities and Interests ;iS3;Time asleep during day;LTC only
+iT;Discharge  ;iT1;Last day of stay;
+iT;Discharge  ;iT2;Living status after discharge;
