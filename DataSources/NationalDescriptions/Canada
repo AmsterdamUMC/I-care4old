@@ -1,0 +1,49 @@
+# Description of I-CARE4OLD data source: Canada
+
+## Data controller
+
+Canadian Institute for Health Information (CIHI)
+
+## Data contents
+
+* interRAI data (sample sizes for 2014–2018)
+    - Home care (HC): 491,289 persons / 332,055 assessments
+    - Long-term care (LTC): 37,330 persons / 91,094 assessments
+    - Instrument versions: MDS 2.0
+    - Medication information: free text entry (only HC)
+* Hospital visits
+* Deaths
+* Medications
+* COVID infections
+
+The main data set covers the years 2012–2018, but newer data can be obtained for COVID-related analyses. The data are collected electronically at admission and every 6 to 12 months in home care and every 3 months in long-term care (nursing homes). The data are collected using MDS 2.0 instruments. The HC data are collected from all home care clients who stay at least 60 days. The LTC data collection is mandated by the province and not all provinces are represented. Canada is able to link hospital visits, deaths, medication events and COVID events to interRAI data. Medication events come from the National Prescription Drug Utilization Information System (NPDUIS), and other events from the National Ambulatory Care Reporting System (NACRS) and the Discharge Abstract Database (DAD), all maintained by CIHI.
+
+## Data collection
+
+### interRAI data
+
+Canadian interRAI data are collected by trained clinical professionals through the care software of specialized companies. The data are then assembled in the Home Care Reporting System (HCRS), Continuing Care Reporting System (CCRS), and Integrated interRAI Reporting System (IRRS) datasets. These datasets are held in the Canadian Institute for Health Information (CIHI) system, which transfers them to University of Waterloo researchers.
+
+### Non-interRAI data
+
+Other health event data is obtained from the Discharge Abstract Database (DAD) maintained and linked by CIHI. The information in the DAD dataset is collected by health professionals in hospitals (Nurses and Doctors) and contains medication, diagnosis, and hospital discharge information, including deaths and transfers.
+
+## Linkage and pseudonymisation
+
+The CIHI system is responsible for extracting and pseudonymising the datasets upon request. Personal information held by CIHI such as name, address, and Health Card Number are included in the dataset. Data are released after review and approval by the Privacy, Confidentiality and Security committee at CIHI (approval was obtained for the databases that will be used in I-CARE4OLD/ DaRT #: 1871). In these datasets, demographic, temporal, and geographic variables are condensed or suppressed such that combinations of variables could not be used to identify a person. Examples of this process include providing a 5-year age range instead of a birth date, date-shifting all assessment reference dates for a person up to 7 days before or after the actual dates, and providing province but not region for the health care facility or organization.
+
+To link the datasets coming from different sources, CIHI creates a meaningless but unique number (MBUN) for each participant that is preserved across all records. The HCRS, CCRS, and IRRS datasets are linked at the University of Waterloo to the DAD data, using the MBUN to combine the records from different care settings based on the needs of each project.
+
+## Data security
+
+_Linked data:_ Canadian Institute of Health Information (CIHI) is responsible for storing the data. There is no transfer because CIHI holds the data and researchers access it remotely via Secure Access Environment (SAE). Many provisions are in place to prevent accidental data loss enforced by CIHI as part of hosting the SAE on Amazon WorkSpaces. Additionally, computers accessing the SAE must be owned and under security policies of University of Waterloo and screens will be locked after 10 minutes of inactivity. CIHI stores datasets for long-term preservation in their own storage space. The data are backed up regularly.
+
+_Unlinked data:_ CIHI is responsible for the transfer via encrypted USB. University of Waterloo provides secure storage in a physical server on University of Waterloo campus, administered by central Information Technology (IST) personnel and under their security policies. Backups happen weekly to a separate server, also on University of Waterloo campus. Access to the server is only available via Remote Desktop to specified users, once the University of Waterloo VPN is active on the computer. IST monitors the servers for activity and maintains the security policies. The data will be retained on this server and the backup.
+
+## Legal basis for use
+
+The I-CARE4OLD project in Canada uses a dataset collected as part of regular clinical practice. This data is sent to Canadian Institute for Health Information (CIHI), which stores it. The Personal Health Information Protection Act, Ontario 2004 (PHIPA) allows for collected health information to be used for research that has been approved by an ethics board. Health privacy is legislated Provincially, and PHIPA has been declared substantially similar to the Canadian Federal Act PIPEDA (Personal Information Protections and Electronic Documents Act, 2000). CIHI pseudonymises the data and provides it to researchers with an identifier number, making it impossible for researchers to identify the names of the participants or any personal identity. CIHI holds the data and maintains identifier numbers to link it to other data sets, for example, acute hospital data sets for studies that require linked data.
+
+## Data re-use
+
+Researchers who are interRAI Fellows, or students/employees of interRAI Fellows can access the record-level data. Publicly available information about Canadian Home Care clients and Long Term Care Homes is available through CIHI Quickstats ([Quick Stats | CIHI](https://www.cihi.ca/en/quick-stats)).
