@@ -1,0 +1,61 @@
+number of fields:
+227
+index of depentant varible (indexes start from 0):
+25
+array of indexes of predictive field
+24	27	28	29	30	31	32	33	34	35	36	37	38	39	40	41	42	43	44	45	46	47	48	49
+number of regression elements
+0
+number of single elements for profie inclusion
+0
+single elements for profile inclusion ( variable / value)
+example: varialble (3) and values (0,1,2,3) represent categories of WP3 homogenity groups
+number of intervention fields:
+0
+Variable indexes of intervention and of corresponding intervention propensity score (if any) :
+Sign of entering or not into a real time wait:
+Y
+Sign of whether to conduct performance tests:
+Y
+Application Build Mode Sign
+B
+Input Learning File Path
+data.txt
+Input Calibration File Path
+data.txt
+Input Test File Path
+data.txt
+Input Read Write Profiles File Path
+readWriteArrayFlexFile.txt
+Performance Report File Path
+outReport.txt
+Person Real Time File Path In
+queryFileIn.txt
+Person Real Time Folder Path Out
+queriesOutFolder//
+Smallest Profile Size Allowed
+1800
+Threshold of Small Profile Sub Group Size
+400
+Number of Calibration / Performance Groups
+10
+Minimum Size Of Persons Category for Stretch and Profile Sensitivity Calculation
+400
+Long Stretch Process Post Profile Build Mode
+1
+Maximum number of input lines
+15000
+Maximum number of evolution iterations
+12
+When building profiles - how many new inclusuion rules/levels max 
+5
+Size and Up To Keep Recursives Calls - above this, only recursive is an option
+80000
+Sample Enough To Continue Recursive - below it, only terminal is an option (no recursive). Between above parameter and this it is based performance
+10000
+Maximum number of recursive levels
+1
+Cap of predictive variables num to go forking
+2
+Highest Recursive Level Before Stop Fork
+2
